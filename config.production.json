@@ -1,0 +1,29 @@
+{
+  "url": "http://192.34.61.231",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "127.0.0.1",
+      "user": "lina",
+      "password": "liNa050899N",
+      "database": "lina_blog_prod"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/home/lina/lina-blog/content"
+  }
+}
